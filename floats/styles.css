@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.menu{
+    background-color: aqua;
+    height: 100px;
+  }
+
+.barra-lateral{
+    background-color: aquamarine;
+    height: 300px;
+    width: 200px;
+    float: left;
+  }
+
+.contenido{
+    background-color:bisque;
+    height: 500;
+}
+
+.pie{
+    background-color: blue;
+    height: 200px;
+}
