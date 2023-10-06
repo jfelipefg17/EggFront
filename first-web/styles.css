@@ -12,6 +12,16 @@ body{
 
 }
 
+#contenedor-de-secciones {
+    display: flex; /* Colocar las secciones una al lado de la otra */
+    justify-content: space-around; /* Espacio entre las secciones */
+}
+.princ-section {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+
+}
 header {
     background-color: rgb(201, 165, 76);
     margin-bottom: 20px;
@@ -22,6 +32,7 @@ header {
 #javawindow {
     float: left;
 }
+
 .windows ul li{
     list-style-type:circle;
     padding: 5px ;
@@ -37,7 +48,11 @@ header {
     color:black;
     padding: 50px;
 }
-
+#centrarTexto{
+    text-align: center; /* Centrar horizontalmente el contenido */
+    max-width: 80%; /* Limitar el ancho del div para evitar superposiciones */
+    margin: 0 auto; /* Centrar el div horizontalmente */
+}
 main .princ-section {
     padding: 20px;
 }
@@ -54,7 +69,7 @@ footer{
 
 .fuente-normal {
     color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
 .fuente-subtitulo {
