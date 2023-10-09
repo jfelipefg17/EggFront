@@ -22,13 +22,44 @@ body{
     align-items: center; /* Centrar verticalmente */
 
 }
+
+/* Estilos para el header */
 header {
     background-color: rgb(201, 165, 76);
-    margin-bottom: 20px;
     padding: 20px;
-    width: 100%;
-    list-style-type: none;
+    display: flex;
+    justify-content: space-between; /* Coloca los elementos a ambos lados */
+    align-items: center; /* Centra verticalmente los elementos */
 }
+
+/* Estilos para el logo */
+#logo {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Estilos para el menú de navegación */
+#mainnav ul {
+    list-style-type: none; /* Quita los marcadores de lista */
+    padding: 0;
+    margin: 0;
+}
+
+#mainnav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 80px;
+}
+
+/* Estilos para los enlaces del menú */
+#mainnav ul li a {
+    text-decoration: none; /* Quita la subraya de los enlaces */
+    color: rgb(0, 0, 0); /* Color del texto */
+    font-weight: bold;
+}
+ 
+
+
 #javawindow {
     float: left;
 }
@@ -86,6 +117,10 @@ footer{
     color: #6d1313;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
     padding: 20px;
-    
 
 }
+
+#li a:hover {
+    color: #ffffff
+}
+
